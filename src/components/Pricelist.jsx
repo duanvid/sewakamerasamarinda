@@ -14,7 +14,7 @@ export default function Pricelist({data}) {
         <div className="flex flex-row items-center">
           <div className="rounded-full p-2 shadow-md mr-5 basis-1/4">
           <img
-          src="src/assets/pngwing.com.png"
+          src="sewakamerasamarinda/public/assets/pngwing.com.png"
           alt=""
           className="w-[64px] h-[64px]"/>
           </div>
