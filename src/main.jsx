@@ -9,12 +9,23 @@ import {
   Link,
 } from "react-router-dom"
 import ErrorPage from './components/ErrorPage'
+import Pricelists from './components/Pricelists'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "pricelist",
+        element: <Pricelists />
+      },
+      {
+        path: "blog",
+        element: <div>blog</div>
+      }
+    ]
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
