@@ -1,0 +1,140 @@
+{
+  "DSLR": [
+    {
+      "type": "Canon 60D",
+      "tag": "Kamera Serba Bisa dengan Hasil Foto yang Tajam",
+      "resolution": "18 MP",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 18-55mm",
+          "tier1": "60k",
+          "tier2": "90k",
+          "tier3": "120k"
+        },
+        {
+          "lensa": "lensa fix 50mm",
+          "tier1": "90k",
+          "tier2": "120k",
+          "tier3": "150k"
+        },
+        {
+          "lensa": "lensa tele 70-300mm",
+          "tier1": "100k",
+          "tier2": "130k",
+          "tier3": "160k"
+        }
+      ]
+    },
+    {
+      "type": "Canon 700D",
+      "resolution":"18 MP",
+      "tag": "Kamera DSLR dengan fitur-fitur unggulan",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 18-55mm",
+          "tier1": "60k",
+          "tier2": "90k",
+          "tier3": "120k"
+        },
+        {
+          "lensa": "lensa fix 50mm",
+          "tier1": "90k",
+          "tier2": "120k",
+          "tier3": "150k"
+        },
+        {
+          "lensa": "lensa tele 70-300mm",
+          "tier1": "100k",
+          "tier2": "130k",
+          "tier3": "160k"
+        }
+      ]
+    },
+    {
+      "type": "Canon 1300D wifi",
+      "tag": "Kamera DSLR yang Mudah Digunakan untuk Fotografer Pemula",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 18-55mm",
+          "tier1": "55k",
+          "tier2": "85k",
+          "tier3": "110k"
+        },
+        {
+          "lensa": "lensa fix 50mm",
+          "tier1": "85k",
+          "tier2": "115k",
+          "tier3": "140k"
+        },
+        {
+          "lensa": "lensa tele 70-300mm",
+          "tier1": "95k",
+          "tier2": "125k",
+          "tier3": "150k"
+        }
+      ]
+    },
+    {
+      "type": "Canon 100D",
+      "tag": "Kamera Ringkas dengan Kualitas Foto Profesional",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 18-55mm",
+          "tier1": "50k",
+          "tier2": "80k",
+          "tier3": "100k"
+        },
+        {
+          "lensa": "lensa fix 50mm",
+          "tier1": "80k",
+          "tier2": "110k",
+          "tier3": "130k"
+        },
+        {
+          "lensa": "lensa tele 70-300mm",
+          "tier1": "90k",
+          "tier2": "120k",
+          "tier3": "140k"
+        }
+      ]
+    },
+    {
+      "type": "Canon 1100D",
+      "tag": "Kamera Pengantar untuk Fotografer Pemula",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 18-55mm",
+          "tier1": "45k",
+          "tier2": "70k",
+          "tier3": "90k"
+        },
+        {
+          "lensa": "lensa fix 50mm",
+          "tier1": "75k",
+          "tier2": "100k",
+          "tier3": "120k"
+        },
+        {
+          "lensa": "lensa tele 70-300mm",
+          "tier1": "85k",
+          "tier2": "110k",
+          "tier3": "130k"
+        }
+      ]
+    }
+  ],
+  "mirrorless": [
+    {
+      "type": "Sony A6000",
+      "tag": "Kamera Mirrorless dengan Kemampuan Fotografi yang Mumpuni",
+      "pricelist": [
+        {
+          "lensa": "lensa kit 16-50mm",
+          "tier1": "80k",
+          "tier2": "120k",
+          "tier3": "160k"
+        }
+      ]
+    }
+  ]
+}
