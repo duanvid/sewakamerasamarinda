@@ -28,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <div>blog</div>
+      },
+      {
+        path: "tips-memilih-kamera",
+        element: <div>tips memilih kamera</div>
       }
     ]
   }
