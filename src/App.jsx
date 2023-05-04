@@ -7,7 +7,7 @@ function App() {
     <header className='p-5 border-b sticky top-0 bg-white'>
       <h1 className='lg:text-4xl text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-cyan-400 w-fit'>Sewa Kamera Samarinda</h1>
     </header>
-    <nav className='flex justify-end border-b'>
+    <nav className='flex justify-end border-b sticky top-[73px] lg:top-[81px] bg-white z-10'>
       <ul className='flex flex-row hover:text-slate-400 text-cyan-500'>
         <li className='p-2 hover:text-pink-400'><Link to={`/`}>Home</Link></li>
         <li className='p-2 hover:text-pink-400'><Link to={`pricelist`}>Pricelist</Link></li>
