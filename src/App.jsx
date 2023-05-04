@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <header className='p-5 border-b sticky top-0 bg-white'>
+    <header className='p-5 border-b sticky top-0 bg-gradient-to-r from-pink-400 to-cyan-400'>
       <h1 className='lg:text-4xl text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-cyan-400 w-fit'>Sewa Kamera Samarinda</h1>
     </header>
     <nav className='flex justify-end border-b sticky top-[72px] lg:top-[81px] bg-white z-10'>
