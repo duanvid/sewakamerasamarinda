@@ -10,7 +10,7 @@ export default function Pricelist({data}) {
 
   return (
     <div className="col-span-1 mx-auto flex justify-center items-center box-content w-full">
-      <div className="border shadow-md rounded-md p-5 max-w-[384px] overflow-x-auto w-full overflow-y-hidden">
+      <div className="border shadow-sm rounded-md p-5 max-w-[384px] overflow-x-auto w-full overflow-y-hidden">
         <div className="flex flex-row items-center">
           <div className="rounded-full p-2 shadow-md mr-5 basis-1/4">
           <img

@@ -133,6 +133,18 @@
           "tier1": "80k",
           "tier2": "120k",
           "tier3": "160k"
+        },
+        {
+          "lensa": "lensa fix 35mm",
+          "tier1": "180k",
+          "tier2": "220k",
+          "tier3": "260k"
+        },
+        {
+          "lensa": "-",
+          "tier1": "-",
+          "tier2": "-",
+          "tier3": "-"
         }
       ]
     }
