@@ -12,6 +12,9 @@ import ErrorPage from './components/ErrorPage'
 import Pricelists from './components/Pricelists'
 import RentalTerm from './components/RentalTerm'
 import RentalTips from './components/RentalTips'
+import Home from './components/Home'
+import LoginPage from './components/LoginPage'
+import Blog from './components/Blog'
 
 /* const router = createBrowserRouter([
   {
@@ -43,11 +46,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App/>}>
-          <Route path='/' element={<Pricelists/>} />
+          <Route path='/' element={<Home/>} />
           <Route path='pricelist' element={<Pricelists/>} />
-          <Route path='blog' element={<div>blog</div>} />
+          <Route path='blog' element={<Blog />} />
           <Route path='ketentuan-sewa' element={<RentalTerm />} />
           <Route path='tips-memilih-kamera' element={<RentalTips />} />
+          <Route path='login' element={<LoginPage />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>
