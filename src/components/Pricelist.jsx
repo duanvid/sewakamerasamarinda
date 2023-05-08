@@ -1,7 +1,6 @@
 import { useRef } from "react"
 
 export default function Pricelist({data, index}) {
-  console.log(index%2 === 0)
   const detailRef = useRef(null)
 
   const handleClick = () => {
@@ -10,7 +9,7 @@ export default function Pricelist({data, index}) {
   const pricelist = data.pricelist
 
   return (
-    <div className="col-span-1 mx-auto flex justify-center items-center box-content w-full">
+    <div className="col-span-1 m-auto flex justify-center items-center box-content w-full">
       <div className={'shadow-sm rounded-md p-5 max-w-[384px] overflow-x-auto w-full overflow-y-hidden' +
         ((index%2===0)
         ? ' shadow-pink-400'
