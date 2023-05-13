@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Pricelists from "./Pricelists";
+import RentalServices from "./RentalServices";
 
 export default function Home() {
   return (
@@ -19,7 +19,6 @@ export default function Home() {
           <img src="assets/HeroImage.webp" alt="" className="w-full max-w-[768px] my-10 mx-auto max-h-[384px] object-cover" />
         </div>
       </section>
-      <Pricelists />
     </div>
   )
 }

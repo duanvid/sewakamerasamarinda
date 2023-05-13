@@ -4,6 +4,7 @@
       "type": "Canon 60D",
       "tag": "Kamera Serba Bisa dengan Hasil Foto yang Tajam",
       "resolution": "18 MP",
+      "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
@@ -29,6 +30,7 @@
       "type": "Canon 700D",
       "resolution":"18 MP",
       "tag": "Kamera DSLR dengan fitur-fitur unggulan",
+      "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
@@ -53,6 +55,7 @@
     {
       "type": "Canon 1300D wifi",
       "tag": "Kamera DSLR yang Mudah Digunakan untuk Fotografer Pemula",
+      "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
@@ -77,6 +80,7 @@
     {
       "type": "Canon 100D",
       "tag": "Kamera Ringkas dengan Kualitas Foto Profesional",
+      "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
@@ -101,6 +105,7 @@
     {
       "type": "Canon 1100D",
       "tag": "Kamera Pengantar untuk Fotografer Pemula",
+      "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
@@ -127,6 +132,7 @@
     {
       "type": "Sony A6000",
       "tag": "Kamera Mirrorless dengan Kemampuan Fotografi yang Mumpuni",
+      "img": "assets/a6000.png",
       "pricelist": [
         {
           "lensa": "lensa kit 16-50mm",
