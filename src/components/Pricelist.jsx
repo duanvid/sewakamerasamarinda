@@ -23,8 +23,8 @@ export default function Pricelist({data, index}) {
           className="w-[64px] h-[64px]"/>
           </div>
         <div className="flex flex-col items-start border-b basis-3/4" onClick={handleClick}>
-          <div className="text-lg font-semibold">{data.type}</div>
-          <div className="text-xs">{data.tag}</div>
+          <div className="text-lg">{data.type}</div>
+          <div className="text-xs text-slate-600">{data.tag}</div>
           </div>
         </div>
         <div ref={detailRef} className="overflow-hidden">

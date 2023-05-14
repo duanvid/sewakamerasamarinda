@@ -1,6 +1,6 @@
 export default function RentalTips() {
   return (
-    <div className="rental-tips">
+    <div className="rental-tips max-w-4xl mx-auto">
       <h2 className="text-2xl p-5 text-center">Tips Memilih Kamera Untuk Disewa</h2>
       <ul className="space-y-2">
         <li className="p-5 bg-slate-200">

@@ -1,6 +1,6 @@
 export default function RentalTerm() {
   return (
-    <div className="">
+    <div className="mx-auto max-w-4xl">
       <h2 className="text-2xl text-center p-5">Ketentuan Sewa</h2>
       <ol className="space-y-2">
         <li className="bg-slate-200 p-5">

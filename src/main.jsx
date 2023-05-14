@@ -11,14 +11,12 @@ import Pricelists from './components/Pricelists'
 import RentalTerm from './components/RentalTerm'
 import RentalTips from './components/RentalTips'
 import Home from './components/Home'
-import LoginPage from './components/LoginPage'
 import Blog from './components/Blog'
 import AdminPage from './components/AdminPage'
 
-import { auth } from './firebase-config'
 import CreatePost from './components/CreatePost'
-
-const admin = auth.currentUser
+import LoginWithRedirect from './components/LoginWithRedirect'
+import Article from './components/Article'
 
 /* const router = createBrowserRouter([
   {
@@ -53,10 +51,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/' element={<Home/>} />
           <Route path='pricelist' element={<Pricelists/>} />
           <Route path='blog' element={<Blog />} />
+          <Route path='blog/:articleId' element={<Article />} />
           <Route path='ketentuan-sewa' element={<RentalTerm />} />
           <Route path='tips-memilih-kamera' element={<RentalTips />} />
-          <Route path='login' element={<LoginPage />} />
-          <Route path='admin' element={<AdminPage admin={admin} />}>
+          <Route path='login' element={<LoginWithRedirect />} />
+          <Route path='admin' element={<AdminPage />}>
             <Route path='create-post' element={<CreatePost />}/>
           </Route>
           <Route path='*' element={<ErrorPage />} />
