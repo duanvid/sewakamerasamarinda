@@ -20,7 +20,7 @@ function App() {
   })
 
   return (
-    <div className='h-screen flex flex-col  font-poppins'>
+    <div className='h-screen flex flex-col  font-poppins relative'>
       <Header setIsOpen={setIsOpen} />
       <Nav isOpen={isOpen} setIsOpen={setIsOpen} isLogin={isLogin}/>
     <div id='main' className='grow overflow-y-auto'>

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import RentalServices from "./RentalServices";
 
 export default function Home() {
   return (

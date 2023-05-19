@@ -1,7 +1,7 @@
 import { get, ref, child } from "firebase/database"
 import { useEffect, useState } from "react"
 import { db } from "../firebase-config"
-import Loading from "./Loading"
+import Loading from "../components/Loading"
 import { Link } from "react-router-dom"
 
 export default function Blog() {
@@ -17,7 +17,8 @@ export default function Blog() {
           const blogData = snapshotChild.val()
           result.push({ "key": keyName, "data": blogData})
         });
-        setBlog(result)
+        const resultASC = result.sort((a,b) => b.createdAt - a.createdAt)
+        setBlog(resultASC)
         setIsLoading(false)
       })
       .catch((error) => {
@@ -42,7 +43,7 @@ export default function Blog() {
                         </div>
                         <div className="p-5 text-slate-600">
                           <div className="" dangerouslySetInnerHTML={{ __html: article.data.content.length > 100 ? (article.data.content.slice(0, 200) + '...') : article.data.content }}></div>
-                          <button className="mt-2 hover:text-slate-900"><Link to={`${article.key}`}>Read Article —»</Link></button>
+                          <button className="mt-2 hover:text-slate-900 text-pink-400"><Link to={`${article.key}`}>Read Article —»</Link></button>
                         </div>
                       </div>
                     </div>

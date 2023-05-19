@@ -4,8 +4,8 @@ export default function RentalTips() {
       <h2 className="text-2xl p-5 text-center">Tips Memilih Kamera Untuk Disewa</h2>
       <ul className="space-y-2">
         <li className="p-5 bg-slate-200">
-          <p className="font-semibold mb-2">Tentukan Tujuan Pemakaian Kamera</p>
-          <p>Sebelum memilih kamera untuk disewa, tentukan terlebih dahulu tujuan pemakaian kamera.
+          <p className="font-semibold mb-2 text-cyan-500">Tentukan Tujuan Pemakaian Kamera</p>
+          <p className="indent-4">Sebelum memilih kamera untuk disewa, tentukan terlebih dahulu tujuan pemakaian kamera.
             Apakah untuk kegiatan fotografi, pembuatan video atau keperluan lainnya. Hal ini akan membantu anda memilih kamera yang sesuai dengan kebutuhan Anda.</p>
         </li>
         <li className="p-5">

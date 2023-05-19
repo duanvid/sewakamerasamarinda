@@ -10,7 +10,7 @@ export default function RentalTerm() {
         </li>
         <li className="p-5">
           <p className="font-semibold mb-2">Biaya Sewa</p>
-          <p>Pembayaran sewa wajib dilakukan diawal saat proses pengambilan kamera sesuai dengan tarif yang telah ditentukan.</p>
+          <p className="">Pembayaran sewa wajib dilakukan diawal saat proses pengambilan kamera sesuai dengan tarif yang telah ditentukan.</p>
         </li>
         <li className="p-5 bg-slate-200">
           <p className="font-semibold mb-2">Pengambilan dan Pengembalian Kamera</p>

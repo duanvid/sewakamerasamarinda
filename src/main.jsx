@@ -6,17 +6,19 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import ErrorPage from './components/ErrorPage'
-import Pricelists from './components/Pricelists'
+import ErrorPage from './pages/ErrorPage'
+import Pricelists from './pages/Pricelists'
 import RentalTerm from './components/RentalTerm'
 import RentalTips from './components/RentalTips'
-import Home from './components/Home'
-import Blog from './components/Blog'
+import Home from './pages/Home'
+import Blog from './pages/Blog'
 import AdminPage from './components/AdminPage'
 
 import CreatePost from './components/CreatePost'
-import LoginWithRedirect from './components/LoginWithRedirect'
+import LoginWithRedirect from './pages/LoginWithRedirect'
 import Article from './components/Article'
+import UserDashboard from './pages/UserDashboard'
+import Payment from './components/Payment'
 
 /* const router = createBrowserRouter([
   {
@@ -52,12 +54,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='pricelist' element={<Pricelists/>} />
           <Route path='blog' element={<Blog />} />
           <Route path='blog/:articleId' element={<Article />} />
-          <Route path='ketentuan-sewa' element={<RentalTerm />} />
-          <Route path='tips-memilih-kamera' element={<RentalTips />} />
           <Route path='login' element={<LoginWithRedirect />} />
+          <Route path='dashboard' element={<UserDashboard />} />
           <Route path='admin' element={<AdminPage />}>
             <Route path='create-post' element={<CreatePost />}/>
           </Route>
+          <Route path='payment' element={<Payment />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>
