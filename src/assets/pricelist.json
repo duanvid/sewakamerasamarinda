@@ -2,6 +2,7 @@
   "DSLR": [
     {
       "type": "Canon 60D",
+      "id": "canon60d",
       "tag": "Kamera Serba Bisa dengan Hasil Foto yang Tajam",
       "resolution": "18 MP",
       "img": "assets/60d.png",
@@ -28,6 +29,7 @@
     },
     {
       "type": "Canon 700D",
+      "id": "canon700d",
       "resolution":"18 MP",
       "tag": "Kamera DSLR dengan fitur-fitur unggulan",
       "img": "assets/60d.png",
@@ -54,6 +56,7 @@
     },
     {
       "type": "Canon 1300D wifi",
+      "id": "canon1300d",
       "tag": "Kamera DSLR yang Mudah Digunakan untuk Fotografer Pemula",
       "img": "assets/60d.png",
       "pricelist": [
@@ -79,31 +82,33 @@
     },
     {
       "type": "Canon 100D",
+      "id": "canon100d",
       "tag": "Kamera Ringkas dengan Kualitas Foto Profesional",
       "img": "assets/60d.png",
       "pricelist": [
         {
           "lensa": "lensa kit 18-55mm",
-          "tier1": "50k",
-          "tier2": "80k",
-          "tier3": "100k"
+          "tier1": "55k",
+          "tier2": "85k",
+          "tier3": "110k"
         },
         {
           "lensa": "lensa fix 50mm",
-          "tier1": "80k",
-          "tier2": "110k",
-          "tier3": "130k"
+          "tier1": "85k",
+          "tier2": "115k",
+          "tier3": "140k"
         },
         {
           "lensa": "lensa tele 70-300mm",
-          "tier1": "90k",
-          "tier2": "120k",
-          "tier3": "140k"
+          "tier1": "95k",
+          "tier2": "125k",
+          "tier3": "150k"
         }
       ]
     },
     {
       "type": "Canon 1100D",
+      "id": "canon1100d",
       "tag": "Kamera Pengantar untuk Fotografer Pemula",
       "img": "assets/60d.png",
       "pricelist": [
@@ -131,6 +136,7 @@
   "mirrorless": [
     {
       "type": "Sony A6000",
+      "id": "sonya6000",
       "tag": "Kamera Mirrorless dengan Kemampuan Fotografi yang Mumpuni",
       "img": "assets/a6000.png",
       "pricelist": [

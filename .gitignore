@@ -25,4 +25,6 @@ dist-ssr
 .firebaserc
 firebase.json
 .firebase
+.env
 /src/firebase-config.js
+sewakamerasamarinda/src/firebase-config.js
