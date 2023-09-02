@@ -18,7 +18,7 @@ export default function NavDesktop({ isLogin }) {
 
   return (
     <nav className="hidden lg:block">
-      <ul className="flex space-x-5 text-lg text-sky-400 hover:text-slate-400">
+      <ul className="flex space-x-5 font-medium text-sky-400 hover:text-slate-400">
         <li className="hover:text-pink-500 hover:underline"><Link to="/">Home</Link></li>
         <li className="hover:text-pink-500 hover:underline"><Link to="/pricelist">Pricelist</Link></li>
         <li className="hover:text-pink-500 hover:underline"><Link to="blog">Blog</Link></li>

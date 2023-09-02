@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import { auth } from './firebase-config';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/whatsapp/WhatsappButton';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +22,17 @@ function App() {
   }, []);
 
   return (
-    <div className="h-[100dvh] flex flex-col  font-poppins relative">
+    <div className="min-h-screen flex flex-col  font-poppins relative">
       <Header setIsOpen={setIsOpen} isLogin={isLogin} />
-      <Nav isOpen={isOpen} setIsOpen={setIsOpen} isLogin={isLogin} />
-      <div id="main" className="grow overflow-y-auto">
+      <Nav
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        isLogin={isLogin}
+      />
+      <div id="main" className="grow bg-slate-100 w-full flex flex-col items-center">
         <Outlet />
       </div>
+      <WhatsAppButton />
       <Footer />
     </div>
   );

@@ -18,6 +18,8 @@ import Article from './components/Article';
 import UserDashboard from './pages/UserDashboard';
 import Payment from './components/Payment';
 import Booking from './pages/Booking';
+import Test from './pages/Test';
+import RentalTerm from './components/RentalTerm';
 
 /* const router = createBrowserRouter([
   {
@@ -52,7 +54,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Home />} />
           <Route path="pricelist" element={<Pricelists />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="test" element={<Test />} />
           <Route path="booking/:cameraId" element={<Booking />} />
+          <Route path="prosedur-sewa" element={<RentalTerm />} />
           <Route path="blog/:articleId" element={<Article />} />
           <Route path="login" element={<LoginWithRedirect />} />
           <Route path="dashboard" element={<UserDashboard />} />

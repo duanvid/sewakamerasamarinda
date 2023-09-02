@@ -20,7 +20,7 @@ export default function LoginWithRedirect() {
           setIsLoading(true);
           (result.user.uid === 'XfkNvyfPayPbFrJoEL5Yj7IRSxz1')
             ? navigate('/admin')
-            : navigate('/dashboard');
+            : navigate('/pricelist');
         }
       })
       .catch((error) => {

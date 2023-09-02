@@ -6,7 +6,9 @@ import NavDesktop from './NavDesktop';
 
 export default function Header({ setIsOpen, isLogin }) {
   return (
-    <header className="bg-white flex justify-between items-center">
+    <header className="bg-white flex justify-between items-center
+      lg:container mx-auto w-full"
+    >
       <h1
         className="lg:text-4xl text-2xl font-bold text-transparent
           bg-clip-text bg-gradient-to-r from-pink-400 to-sky-400
@@ -18,8 +20,8 @@ export default function Header({ setIsOpen, isLogin }) {
         <NavDesktop isLogin={isLogin} />
         <button
           type="button"
-          className="p-2 border rounded-md text-2xl hover:bg-cyan-300
-            hover:duration-500 duration-500 lg:hidden"
+          className="p-2 border rounded-md text-2xl hover:bg-sky-500 hover:text-slate-50
+            hover:duration-500 duration-500 lg:hidden shadow-md"
           onClick={() => setIsOpen(true)}
           aria-label="Menu Button"
         >

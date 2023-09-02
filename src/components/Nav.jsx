@@ -42,7 +42,7 @@ export default function Nav({ isOpen, setIsOpen, isLogin }) {
           <RiCloseLine className="text-2xl" />
         </button>
       </div>
-      <ul className="p-2 space-y-1 flex flex-col hover:text-slate-400 text-sky-500">
+      <ul className="p-2 space-y-1 flex flex-col hover:text-slate-400 text-sky-500 divide-y">
         <li className="p-3 hover:text-pink-400 hover:bg-slate-100 rounded-lg">
           <Link to="/" className="flex flex-row items-center " onClick={close}>
             <RiHomeSmileLine className="mx-2 text-xl" />
@@ -95,15 +95,6 @@ export default function Nav({ isOpen, setIsOpen, isLogin }) {
           rel="noreferrer"
         >
           <RiFacebookBoxFill />
-        </a>
-        <a
-          href="https://wa.me/6281250115100?text=Halo%20Kak%20Saya%20mau%20booking%20kamera"
-          target="_blank"
-          className="text-green-600"
-          rel="noreferrer"
-        >
-          <RiWhatsappLine />
-
         </a>
       </div>
       <div className="flex flex-col text-sky-600 group cursor-pointer mx-5" ref={addresRef}>

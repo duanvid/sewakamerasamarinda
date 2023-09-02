@@ -14,6 +14,12 @@
           "tier3": "120k"
         },
         {
+          "lensa": "lensa kit 18-200mm",
+          "tier1": "110k",
+          "tier2": "140k",
+          "tier3": "170k"
+        },
+        {
           "lensa": "lensa fix 50mm",
           "tier1": "90k",
           "tier2": "120k",
@@ -39,6 +45,12 @@
           "tier1": "60k",
           "tier2": "90k",
           "tier3": "120k"
+        },
+        {
+          "lensa": "lensa kit 18-200mm",
+          "tier1": "110k",
+          "tier2": "140k",
+          "tier3": "170k"
         },
         {
           "lensa": "lensa fix 50mm",
@@ -67,6 +79,12 @@
           "tier3": "110k"
         },
         {
+          "lensa": "lensa kit 18-200mm",
+          "tier1": "105k",
+          "tier2": "135k",
+          "tier3": "165k"
+        },
+        {
           "lensa": "lensa fix 50mm",
           "tier1": "85k",
           "tier2": "115k",
@@ -93,6 +111,12 @@
           "tier3": "110k"
         },
         {
+          "lensa": "lensa kit 18-200mm",
+          "tier1": "105k",
+          "tier2": "135k",
+          "tier3": "165k"
+        },
+        {
           "lensa": "lensa fix 50mm",
           "tier1": "85k",
           "tier2": "115k",
@@ -117,6 +141,12 @@
           "tier1": "45k",
           "tier2": "70k",
           "tier3": "90k"
+        },
+        {
+          "lensa": "lensa kit 18-200mm",
+          "tier1": "95k",
+          "tier2": "120",
+          "tier3": "140k"
         },
         {
           "lensa": "lensa fix 50mm",
@@ -147,18 +177,65 @@
           "tier3": "160k"
         },
         {
-          "lensa": "lensa fix 35mm",
-          "tier1": "180k",
-          "tier2": "220k",
-          "tier3": "260k"
-        },
-        {
-          "lensa": "-",
-          "tier1": "-",
-          "tier2": "-",
-          "tier3": "-"
+          "lensa": "lensa fix 35mm oss",
+          "tier1": "140k",
+          "tier2": "180k",
+          "tier3": "220k"
         }
       ]
+    }
+  ],
+  "lensa": [
+    {
+      "name": "Lensa Fix Canon EF 50mm F1.8 STM",
+      "tier1": "40K",
+      "tier2": "55K",
+      "tier3": "70K",
+      "image": "assets/fix50stm.png"
+    },
+    {
+      "name": "Lensa Kit Canon EF-S 18-200mm F/3.5-5.6 IS",
+      "tier1": "50K",
+      "tier2": "70K",
+      "tier3": "90K",
+      "image": "assets/kit18200m.png"
+    },
+    {
+      "name": "Lensa Fix Sony E 35mm F1.8 OSS",
+      "tier1": "60K",
+      "tier2": "90K",
+      "tier3": "120K",
+      "image": "assets/fix35oss2.png"
+    },
+    {
+      "name": "Lensa Tele Tamron 70-300mm F/4.5-6.3 for Canon EF",
+      "tier1": "40K",
+      "tier2": "55K",
+      "tier3": "70K",
+      "image": "assets/tele70300.png"
+    },
+    {
+      "name": "Lensa Fix Yongnuo 50mm F1.8 for Canon",
+      "tier1": "35K",
+      "tier2": "45K",
+      "tier3": "55K",
+      "image": "assets/fix50yn.png"
+    },
+    {
+      "name": "Lensa Kit Canon EF-S 18-55mm F/3.5-5.6 IS STM",
+      "tier1": "30K",
+      "tier2": "40K",
+      "tier3": "50K",
+      "image": "assets/kit1855.png"
+    }
+  ],
+  "gimbal" : [
+    {
+      "name": "DJI RS 3 mini",
+      "tier1": "70K",
+      "tier2": "110k",
+      "tier3": "150k",
+      "image": "assets/rs3mini.png"
     }
   ]
 }

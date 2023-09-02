@@ -6,25 +6,27 @@ export default function Accordion({
 }) {
   return (
     <div
-      className={`flex group flex-col ${activeIndex === index ? 'is-active' : ''}`}
+      className={`accordion__container flex flex-col ${
+        activeIndex === index
+          ? 'group is-active'
+          : ''}`}
     >
       <div
-        className="flex justify-between container flex-row mx-auto max-w-4xl border-b
-        group-[.is-active]:font-semibold
-        duration-500 hover:bg-slate-100"
+        className="accordion__header p-5 flex justify-between sm:container
+        w-full flex-row mx-auto border-b
+        group-[.is-active]:font-semibold hover:cursor-pointer
+        duration-500 hover:bg-white hover:bg-opacity-25"
         onClick={() => handleClick(index)}
         role="presentation"
       >
-        <div className="p-5">{title}</div>
-        <div className="rotate-90 group-[.is-active]:-rotate-90 p-5 duration-500">
-          {'>'}
+        <h2 className="text-slate-600 font-medium text-sm sm:text-base">{title}</h2>
+        <div className="flex rotate-90 items-center justify-center  group-[.is-active]:-rotate-90 duration-500">
+          <span>{'>'}</span>
         </div>
       </div>
 
-      <div className={`flex overflow-hidden max-h-0 duration-500
-        group-[.is-active]:max-h-[2000px] ease-in-out mx-auto`}
-      >
-        <div className="max-h-0 overflow-hidden group-[.is-active]:max-h-[2000px] duration-1000">
+      <div className="accordion__body sm:container mx-auto w-full">
+        <div className="group-[.is-active]:flex duration-500 hidden transition-all overflow-hidden">
           {content}
         </div>
       </div>
@@ -35,6 +37,7 @@ export default function Accordion({
 
 Accordion.propTypes = {
   title: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
   content: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,
   activeIndex: PropTypes.number.isRequired,
